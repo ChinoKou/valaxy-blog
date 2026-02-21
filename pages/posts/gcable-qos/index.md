@@ -165,7 +165,7 @@ systemctl restart xray      # 重启 Xray 服务
 重启 Mihomo 应用新配置文件，Speedtest.net 测速，下行飙升至 **2Mbps\~10Mbps**：
 
 <div align="center">
-  <img src="./first-test.png" alt="首次测速结果" width="70%">
+  <img src="./first-test.png" alt="首次测速结果" width="90%">
 </div>
 
 仍被限速，查询后得知为运营商限制访问海外**单条 TCP 连接**速度，方式为随机丢包，可通过开启 VPS 的 BBR 算法缓解。
