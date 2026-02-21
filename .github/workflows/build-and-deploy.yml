@@ -48,13 +48,15 @@ jobs:
       - name: Build project
         run: pnpm run build
 
+      - name: Rename dist to build
+        run: mv dist build
+
       - name: Commit changes
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           branch: dist
           commit_message: "chore: build output from commit ${{ github.sha }}"
-          file_pattern: "dist/*"
-          add_options: "--force"
+          file_pattern: "build/"
           push_options: "--force"
           create_branch: true
