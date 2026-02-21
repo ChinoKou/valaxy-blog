@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ChinoKou的小站</title>
+        <link>https://blog.chinokou.cn/</link>
+        <description></description>
+        <lastBuildDate>Sat, 21 Feb 2026 15:06:18 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>ChinoKou的小站</title>
+            <url>https://blog.chinokou.cn/avatar.jpg</url>
+            <link>https://blog.chinokou.cn/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © ChinoKou</copyright>
+        <atom:link href="https://blog.chinokou.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[尝试硬刚广电网络国际出口 QoS 和 TCP 单线限速，拯救 Bytes/s 级别的网速]]></title>
+            <link>https://blog.chinokou.cn/posts/gcable-qos/index</link>
+            <guid isPermaLink="false">https://blog.chinokou.cn/posts/gcable-qos/index</guid>
+            <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>背景</h2>
+<ul>
+<li>一台三网优化的香港 VPS，宽带 200Mbps，并且部署了 Xray 和 Hysteria2-Server 服务</li>
+<li>OpenWrt 部署 Mihomo(Meta) 代理核心与</li>
+</ul>
+<br/><p>访问 <a href="https://blog.chinokou.cn/posts/gcable-qos/index" target="_blank">https://blog.chinokou.cn/posts/gcable-qos/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (ChinoKou)</author>
+        </item>
+    </channel>
+</rss>

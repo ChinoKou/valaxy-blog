@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "ChinoKou的小站",
+    "home_page_url": "https://blog.chinokou.cn/",
+    "feed_url": "https://blog.chinokou.cn/feed.json",
+    "icon": "https://blog.chinokou.cn/avatar.jpg",
+    "author": {
+        "name": "ChinoKou",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://blog.chinokou.cn/posts/gcable-qos/index",
+            "content_html": "<h2>背景</h2>\n<ul>\n<li>一台三网优化的香港 VPS，宽带 200Mbps，并且部署了 Xray 和 Hysteria2-Server 服务</li>\n<li>OpenWrt 部署 Mihomo(Meta) 代理核心与</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.chinokou.cn/posts/gcable-qos/index\" target=\"_blank\">https://blog.chinokou.cn/posts/gcable-qos/index</a> 阅读全文。</p>",
+            "url": "https://blog.chinokou.cn/posts/gcable-qos/index",
+            "title": "尝试硬刚广电网络国际出口 QoS 和 TCP 单线限速，拯救 Bytes/s 级别的网速",
+            "date_modified": "2026-02-20T00:00:00.000Z",
+            "date_published": "2026-02-20T00:00:00.000Z",
+            "author": {
+                "name": "ChinoKou",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
