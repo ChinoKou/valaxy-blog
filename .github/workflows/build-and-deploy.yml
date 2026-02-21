@@ -53,7 +53,8 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           branch: dist
-          commit_message: 'chore: build output from commit ${{ github.sha }}'
-          file_pattern: 'dist/*'
+          commit_message: "chore: build output from commit ${{ github.sha }}"
+          file_pattern: "dist/*"
+          add_options: "--force"
           push_options: "--force"
           create_branch: true
