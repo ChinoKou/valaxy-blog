@@ -24,7 +24,6 @@ export function useUtterances(options: {
     const commentContainer = document.querySelector(".comment");
 
     if (!commentContainer) {
-      console.warn("[Utterances] 未找到 .comment 容器，评论系统无法挂载");
       return;
     }
 
