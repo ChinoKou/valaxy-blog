@@ -48,15 +48,12 @@ jobs:
       - name: Build project
         run: pnpm run build
 
-      - name: Rename dist to build
-        run: mv dist build
-
-      - name: Commit changes
+      - name: Deploy dist to dist branch
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
-        uses: stefanzweifel/git-auto-commit-action@v7
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          branch: dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: dist
+          force_orphan: true
           commit_message: "chore: build output from commit ${{ github.sha }}"
-          file_pattern: "build/"
-          push_options: "--force"
-          create_branch: true
