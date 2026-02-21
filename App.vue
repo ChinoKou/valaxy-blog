@@ -1,14 +1,6 @@
 <!-- You can mount anything here -->
 
-<script lang="ts" setup>
-import { useUtterances } from "./composables/use-utterances";
-
-useUtterances({
-  repo: "ChinoKou/valaxy-blog",
-  issueTerm: "pathname",
-  label: "utterances",
-});
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <!-- try it -->

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useFrontmatter, useFullUrl, useSiteConfig } from "valaxy";
-import { computed } from "vue";
+import { computed, onMounted } from "vue";
+import { useUtterances } from "../composables/use-utterances";
 
 const siteConfig = useSiteConfig();
 const frontmatter = useFrontmatter();
@@ -18,6 +19,14 @@ const showComment = computed(() => {
     return frontmatter.value.comment;
 
   return true;
+});
+
+onMounted(() => {
+  useUtterances({
+    repo: "ChinoKou/valaxy",
+    issueTerm: "pathname",
+    label: "utterances",
+  });
 });
 </script>
 
