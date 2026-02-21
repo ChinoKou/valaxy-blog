@@ -4,7 +4,7 @@
 import { useUtterances } from "./composables/use-utterances";
 
 useUtterances({
-  repo: "ChinoKou/valaxy",
+  repo: "ChinoKou/valaxy-blog",
   issueTerm: "pathname",
   label: "utterances",
 });
