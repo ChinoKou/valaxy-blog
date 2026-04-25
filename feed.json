@@ -1,0 +1,12 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "ChinoKou的小站",
+    "home_page_url": "https://chinokou.cn/",
+    "feed_url": "https://chinokou.cn/feed.json",
+    "icon": "https://chinokou.cn/avatar.jpg",
+    "author": {
+        "name": "ChinoKou",
+        "url": "https://valaxy.site"
+    },
+    "items": []
+}

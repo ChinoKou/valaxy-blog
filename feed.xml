@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ChinoKou的小站</title>
+        <link>https://chinokou.cn/</link>
+        <description></description>
+        <lastBuildDate>Sat, 25 Apr 2026 17:21:53 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>ChinoKou的小站</title>
+            <url>https://chinokou.cn/avatar.jpg</url>
+            <link>https://chinokou.cn/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © ChinoKou</copyright>
+        <atom:link href="https://chinokou.cn/feed.xml" rel="self" type="application/rss+xml"/>
+    </channel>
+</rss>
